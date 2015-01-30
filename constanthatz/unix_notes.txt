@@ -1,0 +1,68 @@
+ls - list files in a directory
+    -l long form
+    -a all files
+cd - change directory
+    absolute and relative paths
+pwd - print working directory
+less - read contents of file
+cat - concatenate
+    read contents of a file or multiple files together and return to console
+nano - basic file editor
+mv - move file, rename
+cp - copy file
+rm - remove file
+-r - recursive modifier to file operations
+whoami - print which user you are
+adduser - create users
+su - switch user
+sudo - operate as the super user
+curl - get file
+chmod - change file permissions
+    rwx notation
+    octal notation
+chwon - change ownership of file or directory
+    user owner doesn't have to be part of group owner
+!! - run previous command
+top - live view of active processes
+ps - print process statuses to console
+grep - read contents of stdin
+ctrl + z - stop
+ctrl + c - terminate
+ctrl + d - eod of file
+fg - bring most recent job to foreground
+jobs - list jobs
+    + - job that will be opened with fg
+    jobs only exist in the current session
+& - automatically put job in the background
+kill - send s signal to a process
+    KILL or 9 - force process to exit
+    TERM or 15 (default) - terminate process normally 
+    STOP - pause a process
+VARIABLE=value - set a local environment variable
+export VARIABLE=value - set an environment variable that will be visible to child processes
+env - list environment variables
+bash - start a new session within your current session
+    .bash_profile - automatically run when session starts
+echo - display the arguments sent to echo
+find * -XXXX "pattern" - look for files
+    * - start in folder * and work down
+    XXXX - search by this parameter
+    "pattern" - search using this pattern
+> - change stdout
+< - change stdin
+| - pipe, send stdout from one process to stdin of another process
+apt - Ubuntu package manager  
+    apt-get update - update your computer's catalog of available software
+    apt-get upgrade - upgrade installed packages
+    apt-get remove - remove package
+        won't remove installed dependencies
+            autoremove
+    apt-cache search - search installable packages
+    apt-get install - install software
+        build-essential - tools needed to build software from source code
+    tar -xvf FILENAME.tar.gz - decompress tar.gz file
+    ./configure - run configure script and create Makefile
+    make - run the build specified in the Makefile
+    sudo make install - run the install script from the Makefile.
+
+

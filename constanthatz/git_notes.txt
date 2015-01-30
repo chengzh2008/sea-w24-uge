@@ -1,0 +1,38 @@
+git init
+.git - is all you need
+mv - can move repository anywhere
+git add - add changed file to staging area
+    -a add all
+git commit - commit when a change is complete
+    -a - auto add previously tracked files to staging area
+    -m - inline message
+    no arguments commits everything in staging area
+git config - change configuration
+    --global changes things everywhere
+git status - show branch, staged, unstaged, untracked files
+git log - see old commits
+git checkout - look at other versions of code
+    can be commit
+        HEAD
+    can be branches
+        -b create and check out in one move
+git diff - see differences between commits of a file
+git branch - list branches
+    git branch BRANCH - create branch BRANCH
+    -D delete branch
+git merge branchname - merge branchname into current branch
+conflicts
+    can git will automatically handle some
+    but not all
+git clone - clone a repository
+git remote - a repositroy somewhere else
+    origin - the repository you cloned, automatically made
+    add - add a remote manually
+git push - send changes to another repository
+    git push REMOTE BRANCH - if remote and branch not provided, origin is assumed
+git pull - see above
+git-flow - variatoin of git with specials branch control
+
+
+
+
