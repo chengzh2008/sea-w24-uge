@@ -1,1 +1,99 @@
+Environmental Commands
+
+logout or exit	end terminal session
+passwd	change password
+date	print date & time
+whoami or who am i	list current user in that window
+who	list all users logged onto the workstation
+man command1	print on-line UNIX manual page for command1
+ftp hostname	start file transfer protocol to transfer file between local and remote workstations. Remote workstation is named hostname
+telnet hostname	log onto remote workstation named hostname
+df -k	print list of disks and current capacity (in kilobytes)
+setenv	list environmental variables
+which command	list location of executable command
+
+File Manipulation
+
+ls	list contents of current directory. Examples:
+ls file.1 lists presence of file.1
+ls -l lists presence of file.1 with expanded information
+ls -a lists contents of current directory, including files that start with "."
+jot file.1	opens jot editor; reads file.1 into jot for editing
+cat file.1	show contents of file.1 on screen
+more file.1	show contents of file.1 on screen, but doesn't scroll past top of screen
+head file.1	show first 20 lines of file.1 on screen
+tail file.1	show last 20 lines of file.1 on screen
+diff file.1 file.2	shows differences between file.1 and file.2
+wc	counts lines, words, and characters in file file.1. Variations:
+wc -l counts lines in file file.1
+wc -w counts words in file file.1
+wc -m counts characters in file file.1
+cp file.1 file.2	copies file.1 to file.2. If file.2 exists, it is overwritten. Original file.1 is not removed
+mv file.1 file.2	moves file.1 to file.2. If file.2 exists, it is overwritten. Original file.1 is removed
+rm file.1	remove file.1. No utilities exist to retrieve it
+grep PATTERN file.1	print all lines that contain PATTERN in file.1
+lpr file.1	print file.1 on default laser printer
+lpr	Show list of available printers and questions to direct your printing of a file to a particular printer
+du -sk	print size (in kilobytes) of current directory ("."). Variations:
+du -sk * prints sizes (in kilobytes) of all files and sub-directories
+du -sk file.1 prints size (in kilobytes) of file.1
+compress file.1	reduce the size of file.1 and replace it with a file named file.1.Z. This compressed file is NOT a (readable) ASCII file.
+uncompress file.1.Z	restore the compressed file file.1.Z
+find . -name file.1 -print	find the loation of file.1 in the directory and sub-directories. Variations:
+find . -name "*pattern" -print finds all files that end with pattern.
+find . -name file.1 -exec rm '{}' ';' removes all files named file.1.
+grep pattern file.1	print only the lines of file.1 that contain pattern
+sort file.1	displays contents of file.1 sorted alphabetically. Variations:
+sort -n file.1 displays contents of file.1 sorted numerically
+sort -r file.1 displays contents of file.1 sorted alphabetically in reverse order.
+
+Directory Manipulation
+
+pwd	show the directory that you are in (present working directory)
+cd dir.1	change directory to dir.1
+mkdir dir.1	make new directory dir.1
+rmdir dir.1	remove EMPTY directory dir.1
+rm -r dir.1	remove directory dir.2 AND its contents
+cp -r dir.1 dir.2	copy dir.1 (and its contents) to dir.2
+mv file.1 dir.1	move file.1 to dir.1
+ls	show contents of current directory. Variations:
+ls dir.1 shows contents of dir.1
+ls -d dir.1 shows PRESENCE of dir.1
+du -sk dir.1	show sum of size (in kilobytes) of dir.1 and its contents
+tar -cvf dir.1.tar dir.1	store an image of dir.1 and it's contents in file file.1
+
+Process Control
+
+command1&	execute command1 in background
+ps -ef	print expanded list of all processes
+kill pid1	remove process pid1
+<control-c>	interrupt current process
+<control-z>	suspend current process
+jobs	display background and suspended processes
+kill %1	remove suspended process #1
+top	display the current, most computer-intensive commands
+osview	display the operating system statitistics
+
+System Security
+
+To change the owner's permissions of a file (or directory), the owner can type:
+chown u+r file.1   chown u+w file.1   chown u+x file.1
+chown u-r file.1   chown u-w file.1   chown u-x file.1
+To change the group's permissions of a file (or directory), the owner can type:
+chown g+r file.1   chown g+w file.1   chown g+x file.1
+chown g-r file.1   chown g-w file.1   chown g-x file.1
+To change the permissions of a file (or directory) for everyone else, the owner can type:
+chown o+r file.1   chown o+w file.1   chown o+x file.1
+chown o-r file.1   chown o-w file.1   chown o-x file.1
+
+Typing shortcuts
+
+file* file? *il* 
+history of commands
+!! repeat last one
+!5 repeat command #5
+!com  repeat last command starting with "com"
+pipe command ps -ef | grep java
+
+
 
