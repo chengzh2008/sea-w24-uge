@@ -1,0 +1,60 @@
+configure:
+	git config --global user.name "name"
+	git config --global user.emal "email"
+	git config --global color.ui auto
+
+Create repositories:
+	git init project_name
+	git clone url
+
+Make changes:
+	git status
+	git diff
+	git add file_name
+	git diff --staged
+	git reset file_name
+	git commit -m "commit message"
+
+Group changes:
+	git branch
+	git branch branch_name
+	git check branch_name
+	git merge branch_name
+	git branch -d branch_name
+
+Refactor filenames:
+	git rm file_name
+	git rm --cached file_name
+	git mv file_original file_renamed
+
+Suppress tracking:
+	file: .gitignore
+	git ls-files --other --ignored --exclude-standard
+
+Save fragments:
+	git stash
+	git stash pop
+	git stash list
+	git stash drop
+
+Review history:
+	git log
+	git log --follow file_name
+	git diff first_branch  second_branch
+	git show commit_name
+
+Redo commits:
+	git reset commit_name
+	git reset --hard commit_name
+
+Synchronize changes:
+	git fetch bookmark
+	git merge bookmark/branch_name
+	git push alias branch_name
+	git pull
+
+
+
+
+
+
