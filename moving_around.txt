@@ -1,0 +1,288 @@
+ls
+cd sea-w24-uge/
+cd codefellow/
+cd ..
+pwd
+subl
+function fish_prompt
+set_color purple
+        echo (date "+%m/%d/%y") Happy coding...
+        set_color FF0
+        echo (pwd) ':-)'
+        set_color normal
+  
+end
+function fish_prompt
+set_color purple
+        echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~echo (date "+%m/%d/%y") Happy coding...
+        set_color FF0
+        echo (pwd) ':-)'
+        set_color normal
+  
+end
+functions fish_prompt 
+functions f
+which node
+node
+vi .bash_profile
+cd
+cd /usr/
+cd .node
+node -v
+echo
+function fish_prompt
+        set_color purple
+        echo (date "+%m/%d/%y") Happy coding...
+        set_color FF0
+        echo (pwd) ':-)'
+        set_color normal
+  end
+clear
+function fish_prompt
+        set_color purple
+        date "+%m/%d/%y" Happy coding...
+        set_color FF0
+        echo (pwd) ':-)'
+        set_color normal
+  end
+function fish_prompt
+        set_color purple
+        date "+%m/%d/%y" echo Happy coding...
+        set_color FF0
+        echo (pwd) ':-)'
+        set_color normal
+  end
+function fish_prompt
+        set_color purple
+        date "+%m/%d/%y"
+        set_color FF0
+        echo (pwd) ':-)'
+        set_color normal
+  end
+function fish_prompt
+        set_color purple
+        date "+%m/%d/%y"
+        set_color FF0
+        echo (pwd) '>'
+        set_color normal
+  end
+function fish_prompt 
+set_color purple
+date "+%m/%d/%y
+"
+set_color FF0
+echo (pwd) ':)'
+set_color normal 
+end
+for x in (seq 5)
+touch file_$x.txt
+end
+cd tmp/
+cd 
+functions ls
+functions cd
+functions alias 
+functions
+ll -p
+man ls
+ls -a
+find
+ls -R
+ls -m
+ll
+ls -S -s
+ls -S
+ls -s
+ll -hl
+ll -G
+lan ls
+man 
+ll | sort
+ls -hl 
+ls -r
+ls -t
+ls -l
+echo $os
+set -e os
+set os (uname)
+env | grep os
+echo In (pwd), running (uname)
+cd /
+count $PATH 
+echo $PATH
+env | grep fish
+env
+l
+while true
+echo "Loop forever"
+end
+say_hello me
+say_hello 
+function say_hello
+echo Hello $argv
+end
+echo hello world
+exit
+curl -fsSL http://git.io/QxUaOQ | sh
+git help
+git
+curl -fsSL http://git.io/7UHtNA | sh
+surl -fsSL http://git.io/7UHtNA | sh
+git --version
+git -v
+subl /etc/path
+e
+mongod
+subl ~/.bash_profile
+subl. ~/.bash_profile
+sub. ~/.bash_pro
+mvn
+echo $EDITOR 
+subl ~/.config/fish/config.fish
+subl .
+btw
+berw
+fish_update_completions 
+cd tmp
+curl -fsSL http://git.io/FzAR | ruby
+a
+echo $SHELL
+chsh -s /usr/local/bin/fish
+chsh -s
+help
+vi /etc/shells 
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew update
+brew doctor
+ls -G
+cd Oracle\ Java\ tutorial/
+uname
+git config --global user.name chengzh2008
+git push origin
+git commit -m "create a cheat sheet"
+git add git_cheat_sheet.txt 
+vi git_cheat_sheet.txt 
+touch git_cheat_sheet.txt
+cd chengzh2008/
+git fsck
+git instaweb -l 127.0.0.1
+git instaweb -localhost
+git instaweb --httpd=localhost git instaweb --stop
+git instaweb --httpd=webrick git instaweb --stop
+gitk
+vi git_notes.txt 
+cd git_notes.txt 
+git pull origin
+vi unix_notes.txt 
+git push --set-upstream origin notes
+git push origin 
+git commit -m "create two txt files on notes branch"
+git commit "create two txt files"
+git status
+git commit -u "create two txt files"
+git add *txt
+touch git_notes.txt
+touch unix_notes.txt
+mkdir chengzh2008
+git checkout notes
+checkout notes
+git branch notes
+cd prework
+git clone https://github.com/chengzh2008/sea-w24-uge.git
+mkdir codefellow
+node app.js 
+npm install
+cd blog/
+vi validateCode.txt 
+touch validateCode.txt
+node hw4-3_validate.js 
+cd validate/
+mongoimport -d blog -c posts <posts.json
+cd homework_4_3_mongoproc_beta_version/
+cd week_4_performance/
+cd for_nodeJS/
+cd MongoDB_online_course/
+CD MongoDB_online_course/
+cd CSE
+cd ../../
+cd hw4-3/
+s
+cd CSE/
+nod
+mongo
+mongoimport -d m101 -c profile < sysprofile.json 
+cd homework_4_4/
+mongoimport -d blog -c posts < posts.json 
+cd CSE/MongoDB_online_course/
+mvn compile exec:java -Dexec.mainClass=course.BlogController
+./run.sh
+cd hw3-2and3-3/
+cd homework_3_2_mongoproc/
+cd week_3_schema_design/
+cd ../
+cd ../../../
+cd tengen/
+cd com/
+cd java/
+cd main/
+cd src/
+cd Week\ 2/
+cd Week_2/
+cd java_driver_representing_documents/
+cd homework_2_2/
+cd week_2_crud/
+cd for_java/
+grep -rn "hw3.2 TODO" .
+grep -rn "hw3.2 TODO"
+cd hw3-2
+LS
+top
+kill -9 9384
+mongoimport -d school -c students < students.json 
+cd homework_3_1/
+node app.js
+node install
+mv blog/ hw3-2
+mv /Users/xiaoyazi/Downloads/hw3-2and3-3/blog .
+cp /Users/xiaoyazi/Downloads/hw3-2and3-3/blog .
+grunt dev_no_server
+bower install
+cd members-ui/
+cd metachi
+cd IdeaProjects/
+cd metachi.iml 
+xit
+source ~/.bash_profile
+mongoimport -d hw3_test -c hw3_scores < hw3_test.json 
+node test.js
+cd hw3-1/
+cd week_3
+mongoimport -d school -c students < students.json
+cd MongoDB_online_course/for_nodeJS/
+cd..
+cd 1.4.28/
+cd mongodb
+cd .npm
+vi test.py
+vi ~/.bash_profile
+sudo npm install -g mongodb
+cd /usr/local/lib/node_modules/
+npm install -g mongodb
+cd /usr/local/mongodb-osx-x86_64-2.6.4/bin/
+which mongodb
+which mongo
+cd package
+cd 1.4.29
+cd mongodb/
+ls /usr/local/mongodb-osx-x86_64-2.6.4/bin/
+ls /usr/local/mongodb-osx-x86_64-2.6.4/
+ls /usr/local/
+echo $NODE_PATH
+npm link mongodb
+which mongod
+cd hw3-1/q
+cp app.js /Users/xiaoyazi/CSE/MongoDB_online_course/for_nodeJS/week_3_schema_design/hw3-1
+cd hw2-2/
+cd homework_2_2_manual_validation_version/
+mongoimport -d school -c studnets < students.json 
